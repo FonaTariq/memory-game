@@ -36,7 +36,6 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
     background: #0d614b;
     padding: 40px 80px;
     overscroll-behavior-block: #0d614b;
