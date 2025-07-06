@@ -6,21 +6,6 @@ let hasFlippedCard= false;
 let lockBord = false;
 let firstCard, secondCard;
 
-
-
-//faten editer
-/*
-
-cards.forEach((card, index) => {
-  const back = card.querySelector('.card-back');
-   back.setAttribute("","")
-  back.textContent = shuffledSymbols[index]; // فقط الخلفية تتغير
-});
-*/
-//end faten editer
-
-
-
 function flipCard(){
     if(lockBord) return;
 
@@ -86,8 +71,8 @@ let symbols = [
   ["A","img/car.avif"],
   ["B","img/shap.png"],
   ["B","img/shap.png"],
-  ["C","img/plant.jpg"],
-  ["C","img/plant.jpg"],
+  ["C","img/Plant.jpg"],
+  ["C","img/Plant.jpg"],
   ["D","img/basclit.jpg"],
   ["D","img/basclit.jpg"],
   ["E","img/normal.jpg"],
@@ -95,6 +80,7 @@ let symbols = [
   ["F","img/house.jpg"],
   ["F","img/house.jpg"],
 ];
+  
 const shuffledSymbols = symbols.sort(() => 0.5 - Math.random()); // مضاعفة 
 //faten editer
 cards.forEach((card, index) => {
